@@ -1,6 +1,7 @@
 body{
     margin:0px;
     padding: 0px;
+    font-family:'Courier New', Courier, monospace,sans-serif;
 }
 
 img{
@@ -11,15 +12,36 @@ img{
 #header{
     display: flex;
     justify-content: space-between;
-    background-color:#023047;
-    color:#fb8500;
+    background-color:#03045e;
+    color:#48cae4;
     padding:10px;
-    width: auto;
-    height: 10%;
-    font-size: medium;
-    
+    flex-basis: 0;
+    font-size: 2vw;
+    height: 30px;
+    align-items: center;
 }
+
 #headerRightContents{
     display: flex;
     gap:10px
+}
+h1{
+    background-color: #023e8a;
+    color: #48cae4;
+    margin: 0px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    font-size: 6vw;
+    align-items: center;
+    
+    
+}
+#images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px 0px;
+    background-color: #0077b6;
+    gap: 10px;
 }
