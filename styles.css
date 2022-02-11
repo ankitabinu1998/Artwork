@@ -26,7 +26,8 @@ img{
     gap:10px
 }
 h1{
-    background-color: #023e8a;
+    /* background-color: #023e8a; */
+    background-image: linear-gradient(#03045e,#0096c7);
     color: #48cae4;
     margin: 0px;
     height: 500px;
